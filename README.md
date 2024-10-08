@@ -1,5 +1,5 @@
 # Installation
-> `npm install --save @types/html2pdf.js`
+> `npm install --save-dev @types/html2pdf.js`
 
 # Summary
 This package contains type definitions for html2pdf.js (https://github.com/eKoopmans/html2pdf.js).
