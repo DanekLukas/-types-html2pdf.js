@@ -1,0 +1,31 @@
+export default Worker;
+declare class Worker {
+    private constructor();
+    from(src: any, type: any): any;
+    to(target: any): any;
+    toContainer(): any;
+    toCanvas(): any;
+    toImg(): any;
+    toPdf(): any;
+    output(type: any, options: any, src: any): any;
+    outputPdf(type: any, options: any): any;
+    outputImg(type: any, options: any): any;
+    save(filename: any): any;
+    set(opt: any): any;
+    get(key: any, cbk: any): any;
+    setMargin(margin: any): any;
+    setPageSize(pageSize: any): any;
+    setProgress(val: any, state: any, n: any, stack: any): any;
+    updateProgress(val: any, state: any, n: any, stack: any): any;
+    then(onFulfilled: any, onRejected: any): any;
+    thenCore(onFulfilled: any, onRejected: any, thenBase: any): any;
+    thenExternal(onFulfilled: any, onRejected: any): any;
+    thenList(fns: any): any;
+    catch(onRejected: any): any;
+    catchExternal(onRejected: any): any;
+    error(msg: any): any;
+    using: any;
+    saveAs: any;
+    export: any;
+    run: any;
+}
